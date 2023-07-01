@@ -1,0 +1,92 @@
+.homePageWrapper {
+  position: relative;
+  background-size: cover;
+  .vectorImage {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 4.25rem;
+    height: 2.125rem;
+    flex-shrink: 0;
+  }
+  .homeImage {
+    width: 100vw;
+    height: 100vh;
+  }
+  .profileImage {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 10.3125rem;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(18.99280548095703px);
+  }
+  .description-wrapper {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    width: 84%;
+    border-radius: 0.3125rem;
+    background: rgba(26, 26, 26, 0.5);
+    backdrop-filter: blur(8px);
+    .description {
+      color: #fff;
+      text-align: center;
+      font-size: 0.75rem;
+      font-family: Euclid Circular B;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.25rem;
+    }
+  }
+  .step-inside-button {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 0.3125rem;
+    background: linear-gradient(
+      45deg,
+      rgba(134, 134, 134, 0.25) 0%,
+      rgba(171, 171, 171, 0.25) 100%
+    );
+    backdrop-filter: blur(9px);
+    width: 20.5rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    .step-inside {
+      color: #ffde88;
+      font-size: 1rem;
+      font-family: Euclid Circular B;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .terms {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    width: 18.625rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    line-height: 1.0625rem;
+    .privacy-policy {
+      color: #ffde88;
+    }
+  }
+}

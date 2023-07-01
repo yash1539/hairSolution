@@ -1,9 +1,12 @@
-import React from 'react'
+import "./App.css";
+import MainSceen from "./Components/MainSceen";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div className="App">
+      <MainSceen />
+    </div>
+  );
 }
 
-export default App
+export default App;
