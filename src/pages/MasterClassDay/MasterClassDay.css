@@ -6,7 +6,7 @@
     min-height: 100vh;
     background-image: url('../../Images/MasterClassDay/masterClassDay.jpg');
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 
 .masterClass-day__body_image {
