@@ -5,8 +5,8 @@ import MasterClassDay from "./pages/MasterClassDay/MasterClassDay";
 function App() {
   return (
     <div className="App">
-      {/* <MainSceen /> */}
-      <MasterClassDay/>
+      <MainSceen />
+      {/* <MasterClassDay/> */}
     </div>
   );
 }
