@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./OtpScreen.css";
+import Navbar from "./Navbar";
 
 const OtpScreen = () => {
   const [otp, setOtp] = useState(["", "", "", ""]);
@@ -30,6 +31,9 @@ const OtpScreen = () => {
 
   return (
     <div className="otp-screen-container">
+      <div className="navBar">
+      <Navbar/>
+      </div>
       <div className="otp-line otp-line-1">
         <h1>Enter the OTP sent to</h1>
       </div>
