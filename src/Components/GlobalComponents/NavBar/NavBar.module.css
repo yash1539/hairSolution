@@ -13,7 +13,16 @@
 
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 7.5rem;
+}
+
+.SkipButton {
+    background-color: rgba(26, 26, 26, 0.5);
+    width: 65px;
+    height: 28px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px rgba(182, 180, 180, 0.5) solid;
+    cursor: pointer;
 }

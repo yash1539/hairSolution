@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from './NavBar.module.css'
 
-const NavBar = () => {
+const NavBar = ({ isHidden }) => {
     return (
         <nav className={style.navSection}>
             <div className={style.navbar}>
-                <ul className={style.flex}>
-                    <li><img src="./assets/backIcon.svg" /></li>
-                    <li><img src="./assets/tresemmeBanner.svg" /></li>
-                    <li><img src="./assets/cart.svg" /></li>
-                </ul>
+                <div className={style.flex}>
+                    <div>{!isHidden ? <img src="./assets/backIcon.svg" alt="backIcon" /> : ''}</div>
+                    <div><img src="./assets/tresemmeBanner.svg" /></div>
+                    <div>{!isHidden ? <img src="./assets/cart.svg" alt="cartIcon" /> : <button className={style.SkipButton}>SKIP</button>}</div>
+                </div>
             </div>
         </nav>
     )

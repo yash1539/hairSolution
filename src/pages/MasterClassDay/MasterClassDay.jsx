@@ -9,7 +9,7 @@ const MasterClassDay = () => {
 
     return (
         <section className='masterClass-day'>
-            <NavBar />
+            <NavBar isHidden={false} />
             <div>
                 <div className='masterClass-day__body'>
                     <img src='./assets/girl.svg' alt="girl" className='masterClass-day__body_image' />
