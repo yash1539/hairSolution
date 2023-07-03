@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className='navBar'>
       <div className="navbar-icon">
-        <back className="backNav"/>
+      <img src={back} alt="back" className="back" />
         <VectorImage className="vectorImage" />
         <img src={cart} alt="Cart" className="cart" />
       </div>
