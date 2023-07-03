@@ -3,7 +3,7 @@
 /* Common styles for all screen sizes */
 .otp-screen-container {
     background-image: url('../../src/Images/OtpScreen/OTP-screen 1.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;

@@ -1,0 +1,34 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    background: linear-gradient(133deg, rgba(107, 107, 107, 0.15) 0%, rgba(255, 255, 255, 0.12) 100%);
+backdrop-filter: blur(7.5px);
+  }
+  
+  .navbar-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .backNav {
+    width: 20px;
+    height: 19px;
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+  
+  .vectorImage {
+    width: 68px;
+    height: 34px;
+    margin-left: 69px;
+  }
+  
+  .cart {
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+  }
+  
