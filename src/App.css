@@ -1,6 +1,6 @@
 .App {
-  margin: 0 auto;
   text-align: center;
+  margin:0 auto;
 }
 
 .App-logo {
@@ -39,8 +39,9 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+
+ @media screen and (min-width: 400px) {
   .App {
     max-width: 390px;
   }
-}
+} 
