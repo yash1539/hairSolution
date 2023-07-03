@@ -102,4 +102,6 @@ ul {
 
 .masterClass-day__body_button:hover {
     background-image: linear-gradient(rgba(134, 134, 134, 0.25), rgba(171, 171, 171, 0.25));
+    color: #EAC889;
+    border-color: #EAC889;
 }

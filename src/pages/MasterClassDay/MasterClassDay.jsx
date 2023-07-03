@@ -1,13 +1,8 @@
 import React, { useState } from 'react'
-import NavBar from '../../Components/NavBar/NavBar'
+import NavBar from '../../Components/GlobalComponents/NavBar/NavBar'
 import './MasterClassDay.css'
-import girlImage from '../../Images/MasterClassDay/girl.svg'
-import sadFace from '../../Images/MasterClassDay/sad-Face.svg'
-import ConfusedFace from '../../Images/MasterClassDay/confused-Face.svg'
-import NeutralFace from '../../Images/MasterClassDay/Neutral-Face.svg'
-import GrinningFace from '../../Images/MasterClassDay/Grinning-Face.svg'
-import StarStruck from '../../Images/MasterClassDay/Star-Struck.svg'
-const emojiArray = [sadFace, ConfusedFace, NeutralFace, GrinningFace, StarStruck]
+
+const emojiArray = ['./assets/sad-Face.svg', './assets/confused-Face.svg', './assets/Neutral-Face.svg', './assets/Grinning-Face.svg', './assets/Star-Struck.svg']
 
 const MasterClassDay = () => {
     const [name, setName] = useState('Gurmeher')
@@ -17,7 +12,7 @@ const MasterClassDay = () => {
             <NavBar />
             <div>
                 <div className='masterClass-day__body'>
-                    <img src={girlImage} alt="girl" className='masterClass-day__body_image' />
+                    <img src='./assets/girl.svg' alt="girl" className='masterClass-day__body_image' />
                     <h3 className='masterClass-day__body_title'>Hair Care Masterclass</h3>
                     <article className='masterClass-day__body_message'>
                         <p> Thank you,{name}, for attending the masterclass! We appreciate your presence and would love to hear your feedback.</p>
