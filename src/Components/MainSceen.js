@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 const MainSceen = () => {
   const navigate = useNavigate();
  const stepInside = () =>{
-  navigate("/OtpScreen");
+  navigate("/TrendingStory");
 }
   // return (
   //   <div className="homePageWrapper">
