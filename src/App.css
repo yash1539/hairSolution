@@ -45,3 +45,65 @@
     max-width: 390px;
   }
 } 
+
+
+.img-background {
+  background-image: url('Images/OtpScreen/OTP-screen 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.my-5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mx-5{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.px-5{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.py-5{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.my-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mx-10{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.px-10{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.py-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.w-10{
+  width: 10%;
+}
+.screen-container {
+  /* background-image: url('../../src/Images/OtpScreen/OTP-screen 1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
