@@ -1,0 +1,107 @@
+.masterClass-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../../Images/MasterClassDay/masterClassDay.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.masterClass-day__body_image {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+.masterClass-day__body_title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #EAC889;
+}
+
+.masterClass-day__body_message {
+    margin: 0 auto;
+    background-color: rgba(26, 26, 26, 0.5);
+    width: 330px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin-block: 0px;
+    margin-inline: 0px;
+    padding-inline: 0px;
+}
+
+.masterClass-day__body_message p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.masterClass-day__body_feedback ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.masterClass-day__body_feedback {
+    margin: 0 20px;
+}
+
+.masterClass-day__body_feedback {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.masterClass-day__body_feedback div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: #FFFFFF 1px solid;
+    border-radius: 100%;
+}
+
+.masterClass-day__body_feedback div img {
+    width: 80%;
+}
+
+
+.masterClass-day__body_feedback div:hover {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 300ms all ease-in-out;
+}
+
+.masterClass-day__body_button {
+    width: 20rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px #FFFFFF solid;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.masterClass-day__body_button:hover {
+    background-image: linear-gradient(rgba(134, 134, 134, 0.25), rgba(171, 171, 171, 0.25));
+    color: #EAC889;
+    border-color: #EAC889;
+}
