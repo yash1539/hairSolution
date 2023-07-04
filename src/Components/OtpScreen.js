@@ -42,7 +42,7 @@ const OtpScreen = () => {
     {/* </div> */}
     <div className="screen-container">
       <div className="otp-line otp-line-1">
-        <h1>Enter the OTP sent to</h1>
+        <h1>enter the OTP sent to </h1>
       </div>
       <div className="otp-line otp-line-2">
         <h1>8120917874</h1>
