@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const StoryScreen = () => {
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/OtpScreen");
+     navigate("/masterClass");
    }
     return (
         <>
