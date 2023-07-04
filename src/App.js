@@ -6,7 +6,6 @@ import ScreenContainer from "./Components/ScreenContainer";
 import MasterclassThanks from "./Components/MasterclassThanks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
-import HomePage from "./Components/HomePage";
 
 function App() {
   return (
@@ -21,6 +20,7 @@ function App() {
           <Route path="/MasterclassThanks" index element={<MasterclassThanks />} />
           <Route path="/OtpScreen" index element={<OtpScreen />} />
           <Route path="/ScreenContainer" index element={<ScreenContainer />} />
+          <Route path = "/Introduction" index element = {<Introduction/>}/>
         </Routes>
       </BrowserRouter>
     </div>
