@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import FirstScreen from "./Pages/FirstScreen";
-
 function App() {
   return (
     <div className="App">
@@ -23,6 +22,7 @@ function App() {
           <Route path="/OtpScreen" index element={<OtpScreen />} />
           <Route path="/ScreenContainer" index element={<ScreenContainer />} />
           <Route path="/HomePage" index element={<HomePage />} />
+          <Route path = "/Introduction" index element = {<Introduction/>}/>
         </Routes>
       </BrowserRouter>
     </div>
