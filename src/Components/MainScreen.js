@@ -16,7 +16,7 @@ const MainScreen = () => {
       <div className="img-background">
       <VectorImage className="vectorImage" />
 
-        <Navbar hideBack={true} hideLogo={false} hideCart={true} />
+        {/* <Navbar hideBack={true} hideLogo={false} hideCart={true} /> */}
         <div className="main-screen-container d-flex ">
           <img src={profileImage} alt="Overlay" className="profileImage" />
           <div className="description-wrapper">
@@ -27,7 +27,7 @@ const MainScreen = () => {
             </span>
           </div>
           <button className="step-inside-button">
-            <div className="step-Button">STEP INSIDE</div>
+            <div className="step-Button" onClick={stepInside}>STEP INSIDE</div>
           {/* <img src={stepinside} alt="" /> */}
             {/* <span className="step-inside1" onClick={stepInside}>STEP INSIDE</span> */}
           </button>
