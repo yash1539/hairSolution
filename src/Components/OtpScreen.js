@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./OtpScreen.css";
+import "./OtpScreen.scss";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 
@@ -34,14 +34,18 @@ const OtpScreen = () => {
 
   return (
     <>
-    <div className="img-background">
+    <div className="img-background-type-1">
       {/* <div className="navBar"> */}
       
       {/* <Navbar hideBack={true} hideLogo={false} hideCart={true} /> */}
       <Navbar  />
     {/* </div> */}
-    <div className="screen-container">
-      <div className="otp-line otp-line-1">
+    <div className="screen-container-1">
+     <div className="otp-container">
+
+     
+     <div>
+     <div className="otp-line otp-line-1">
         <h1>enter the OTP sent to </h1>
       </div>
       <div className="otp-line otp-line-2">
@@ -50,6 +54,7 @@ const OtpScreen = () => {
       <div className="otp-line otp-line-3">
         <h1>Change registered number</h1>
       </div>
+     </div>
       <form onSubmit={handleOtpVerification}>
         <div className="otp-input-container">
           {otp.map((value, index) => (
@@ -75,7 +80,7 @@ const OtpScreen = () => {
       </form>
     </div>
     </div>
-
+    </div>
             </>
   );
 };

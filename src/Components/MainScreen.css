@@ -32,13 +32,7 @@ flex-shrink: 0;
     color: #ffde88;
   }
 
-.main-screen-container{
-  background-image: url('../../src/Images/HomeScreen/homeMain.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-}
+
 
 .step-inside-button{
   background-image: url('../../src/Images/HomeScreen/stepinside.png');

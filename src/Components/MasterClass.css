@@ -27,13 +27,16 @@ line-height: normal;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.49) 7.11%, rgba(255, 255, 255, 0.00) 26.97%, rgba(127, 127, 127, 0.39) 44.26%, rgba(63, 63, 63, 0.59) 60.19%, rgba(33, 33, 33, 0.68) 79.95%, rgba(0, 0, 0, 0.78) 100%);
 }
 .selected-masterclass{
-  width: 157px;
+  /* width: 157px;
 height: 2px;
 flex-shrink: 0;
 border-radius: 100px;
 background: #EAC889;
 margin-bottom: 30px;
-margin-right: 190px;
+margin-right: 190px; */
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 .card-main-container{
   display: flex;

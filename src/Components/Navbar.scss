@@ -33,7 +33,6 @@ backdrop-filter: blur(7.5px);
    */
 
 .navBar {
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,8 +43,8 @@ backdrop-filter: blur(7.5px);
   background: linear-gradient( 133deg, rgba(107, 107, 107, 0.15) 0%, rgba(255, 255, 255, 0.12) 100% );
   -webkit-backdrop-filter: blur(7.5px);
   backdrop-filter: blur(7.5px);
-}
-.vectorImage {
-  width: 68px;
-  height: 34px;
+  .logo {
+    width: 68px;
+    height: 34px;
+  }
 }

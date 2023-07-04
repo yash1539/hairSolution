@@ -8,7 +8,7 @@ function MasterClass() {
             <div className='master-class-1'>
                 <div className="img-background-1">
                     <Navbar />
-                    <div className="screen-container">
+                    <div className="screen-container-1">
                         <div className='tab-screen'>
                             <p type="submit" className="Upcoming-button">
                                 Upcoming Masterclass
@@ -19,8 +19,11 @@ function MasterClass() {
                         </div>
                         <div className='selected-masterclass'>
 
+                        <BookNowCard />
+                        <BookNowCard />
+
                         </div>
-                        <div className='card-main-container'>
+                        {/* <div className='card-main-container'>
                             <div className='cards'>
                                 <BookNowCard />
                             </div>
@@ -37,7 +40,7 @@ function MasterClass() {
                                 <BookNowCard />
                             </div>
 
-                        </div>
+                        </div> */}
                         <div className="Card-masterclass">
                         </div>
                     </div>

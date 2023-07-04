@@ -1,6 +1,12 @@
 /* OtpScreen.css */
-
-/* Common styles for all screen sizes */
+.otp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  min-height: 55vh;
+  width: 80%;
+}
 
   
   .otp-verify-button{
@@ -54,7 +60,6 @@ background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 
     cursor: pointer;
   }
   
-  /* Media queries for mobile view */
   @media (max-width: 767px) {
     .otp-line h1 {
       font-size: 16px;
