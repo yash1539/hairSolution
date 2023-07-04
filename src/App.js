@@ -1,6 +1,6 @@
 import "./App.css";
 import OtpScreen from "./Components/OtpScreen";
-import MainSceen from "./Components/MainSceen";
+import MainScreen from "./Components/MainScreen";
 import MasterClass from "./Components/MasterClass";
 import ScreenContainer from "./Components/ScreenContainer";
 import MasterclassThanks from "./Components/MasterclassThanks";
@@ -15,12 +15,13 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={<HomePage />} />
+          <Route path="/" index element={<MainScreen />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
           <Route path="/MasterclassThanks" index element={<MasterclassThanks />} />
           <Route path="/OtpScreen" index element={<OtpScreen />} />
           <Route path="/ScreenContainer" index element={<ScreenContainer />} />
+          <Route path="/HomePage" index element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </div>

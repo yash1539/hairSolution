@@ -1,0 +1,10 @@
+.text-alert{
+background-color: #fff;
+ width: 100vw;
+height: 53px;
+flex-shrink: 0;
+}
+
+.text-alert-invalid{
+    background-color: #DD4444;
+}

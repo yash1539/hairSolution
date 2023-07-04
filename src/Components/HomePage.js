@@ -5,9 +5,16 @@ import 'slick-carousel/slick/slick-theme.css';
 import './HomePage.css';
 import Navbar from "./Navbar";
 
- 
+ import { useNavigate } from "react-router-dom";
+
+
 
 const HomePage = () => {
+  
+  const navigate = useNavigate();
+  const stepInside = () =>{
+   navigate("/masterClass");
+ }
     const settings = {
         dots: true,
         infinite: true,
@@ -38,10 +45,10 @@ const HomePage = () => {
     <Slider {...settings}>
         
       <div>
-        <h3 className="slide-content">Slide 1</h3>
+        <h3 className="slide-content"  onClick={stepInside}>Slide 1</h3>
       </div>
       <div>
-        <h3 className="slide-content">Slide 2</h3>
+        <h3 className="slide-content"  onClick={stepInside}>Slide 2</h3>
       </div>
       <div>
         <h3 className="slide-content">Slide 3</h3>
@@ -54,16 +61,16 @@ const HomePage = () => {
     <Slider {...settings2}>
         
       <div>
-        <h3 className="slide-content2">Slide 1</h3>
+        <h3 className="slide-content2" onClick={stepInside}>Slide 1</h3>
       </div>
       <div>
-        <h3 className="slide-content2">Slide 2</h3>
+        <h3 className="slide-content2"  onClick={stepInside}>Slide 2</h3>
       </div>
       <div>
-        <h3 className="slide-content2">Slide 3</h3>
+        <h3 className="slide-content2"  onClick={stepInside}>Slide 3</h3>
       </div>
       <div>
-        <h3 className="slide-content2">Slide 4</h3>
+        <h3 className="slide-content2"  onClick={stepInside}>Slide 4</h3>
       </div>
       
     </Slider>
