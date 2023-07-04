@@ -6,8 +6,8 @@ background-position: center;
 }
 
 .White-Box{
-width: 332px;
-height: 650px;
+width: 90vw;
+height: 80vh;
 flex-shrink: 0;
 border-radius: 5px;
 background: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(45deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.29) 100%);

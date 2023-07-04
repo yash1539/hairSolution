@@ -1,56 +1,23 @@
-
- 
-
-  .profileImage {
- 
-    z-index: 1;
-    border-radius: 10.3125rem;
-    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
-    backdrop-filter: blur(18.99280548095703px);
-  }
   .description-wrapper {
- 
- 
-    z-index: 1;
-    width: 298px;
-    border-radius: 0.3125rem;
-    background: rgba(26, 26, 26, 0.5);
-    backdrop-filter: blur(8px);
-   
+width: 298px;
+flex-direction: column;
+flex-shrink: 0;
   }
   .description {
-    color: #fff;
+    color: #FFF;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-family: Euclid Circular B;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.25rem;
+    line-height: 20px;
   }
   .step-inside-button {
 
-    z-index: 1;
-    border-radius: 0.3125rem;
-    background: linear-gradient(
-      45deg,
-      rgba(134, 134, 134, 0.25) 0%,
-      rgba(171, 171, 171, 0.25) 100%
-    );
-    backdrop-filter: blur(9px);
- 
-    flex-shrink: 0;
-   
-  }
-  .step-inside {
-    color: #ffde88;
-    font-size: 1rem;
-    font-family: Euclid Circular B;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+   background-color: transparent;
+   border: transparent;
   }
   .terms {
-   
     z-index: 1;
     text-align: center;
     width: 18.625rem;
@@ -66,10 +33,21 @@
   }
 
 .main-screen-container{
-  background-image: url('../../src/Images/MasterClass/Master.jpg');
+  background-image: url('../../src/Images/HomeScreen/homeMain.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 90vh;
-  
+  min-height: 100vh;
+}
+
+.step-inside-button{
+  background-image: url('../../src/Images/HomeScreen/stepinside.png');
+  background-color: transparent;
+  border: transparent;
+
+}
+
+.vectorImage{
+  margin-top: 5vh;
+
 }
