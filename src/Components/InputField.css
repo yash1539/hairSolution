@@ -1,0 +1,29 @@
+.inputSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px #EAC889 solid;
+    margin-top: 380px;
+    width: 328px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #1a1a1a80;
+}
+
+.inputField {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    border-left: 1px #EAC889 solid;
+}
+
+input:focus {
+    outline: none;
+}
+
+.inputSection_react {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
