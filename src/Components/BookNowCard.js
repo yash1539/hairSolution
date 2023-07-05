@@ -19,7 +19,7 @@ function BookNowCard() {
             <div className='card-text-2'>Hair Conditioning </div>
             <div className='card-text-3'>Yash</div>
             {/* <button type="submit" className="book-now--button" onClick={stepInside}>BOOK NOW</button> */}
-            <Button onClick={stepInside} />
+            <Button text={'BOOK NOW'} onClick={stepInside} />
            </div>
         </div>
     )

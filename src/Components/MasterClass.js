@@ -1,51 +1,64 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MasterClass.css'
 import Navbar from './Navbar'
 import BookNowCard from './BookNowCard'
+import { useNavigate } from 'react-router-dom'
 function MasterClass() {
+
+    const navigate = useNavigate();
+    const stepInside = () =>{
+     navigate("/OtpScreen");
+   }
+    const [activeTab, setActiveTab] = useState('upcoming');
+
+    const handleTabChange = (tabName) => {
+        setActiveTab(tabName);
+    };
+
+
     return (
         <>
             <div className='master-class-1'>
                 <div className="img-background-1">
                     <Navbar />
                     <div className="screen-container-1">
-                        <div className='tab-screen'>
-                            <p type="submit" className="Upcoming-button">
-                                Upcoming Masterclass
-                            </p>
-                            <p type="submit" className="Upcoming-button">
-                                Archived Masterclass
-                            </p>
-                        </div>
-                        <div className='selected-masterclass'>
-
-                        <BookNowCard />
-                        <BookNowCard />
-
-                        </div>
-                        {/* <div className='card-main-container'>
-                            <div className='cards'>
-                                <BookNowCard />
+                        <div >
+                            <div >
+                                <div className={` ${activeTab === 'upcoming' ? 'active' : ''}`} />
+                                <div className={` ${activeTab === 'archived' ? 'active' : ''}`} />
                             </div>
-                            <div className='cards'>
-                                <BookNowCard />
+                            <div className="tabs">
+                                <div
+                                    className={`tab ${activeTab === 'upcoming' ? 'active' : ''}`}
+                                    onClick={() => handleTabChange('upcoming')}
+                                >
+                                    Upcoming MasterClass
+                                </div>
+                                <div
+                                    className={`tab ${activeTab === 'archived' ? 'active' : ''}`}
+                                    onClick={() => handleTabChange('archived')}
+                                >
+                                    Archived Masterclass
+                                </div>
                             </div>
+                            {activeTab === 'upcoming' && <div className='selected-masterclass' onClick={stepInside}>
 
-                        </div>
-                        <div className='card-main-container card-section-2'>
-                            <div className='cards'>
                                 <BookNowCard />
-                            </div>
-                            <div className='cards'>
                                 <BookNowCard />
-                            </div>
 
-                        </div> */}
-                        <div className="Card-masterclass">
+                            </div>}
+                            {activeTab === 'archived' && <div className='selected-masterclass' onClick={stepInside}>
+
+                                <BookNowCard />
+
+                            </div>}
                         </div>
+
                     </div>
                 </div>
             </div>
+
+
         </>
     )
 }

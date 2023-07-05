@@ -6,6 +6,7 @@ background-position: center;
 }
 
 .White-Box{
+    margin-left: 2vh;
 width: 90vw;
 height: 80vh;
 flex-shrink: 0;
@@ -15,7 +16,8 @@ backdrop-filter: blur(9px);
 }
 
 .Slider-Story{
-width: 355px;
+    margin-left: 2vh;
+width: 90vw;
 height: 4px;
 flex-shrink: 0;
 border-radius: 100px;
@@ -32,3 +34,8 @@ flex-shrink: 0;
 border-radius: 5px;
 backdrop-filter: blur(22.5px);
 } */
+
+
+.White-Box-container{
+    margin-bottom: 10vh;
+}

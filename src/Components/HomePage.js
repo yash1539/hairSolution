@@ -24,7 +24,7 @@ const HomePage = () => {
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode: true, 
-        centerPadding: '40px', 
+        centerPadding: '30px', 
       };
       const settings2 = {
         dots: true,
@@ -34,11 +34,11 @@ const HomePage = () => {
         slidesToScroll: 1,
         autoplaySpeed: 2000,
         centerMode: true, 
-        centerPadding: '100px', 
+        centerPadding: '90px', 
       };
 
   return (
-    <div className='homepage-wrap'>
+    <div className='img-background-type-6'>
 
     <Navbar/>
     

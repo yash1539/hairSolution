@@ -1,15 +1,14 @@
 import "./App.scss";
 import OtpScreen from "./Components/OtpScreen";
 import MainScreen from "./Components/MainScreen";
-import IntoScreen from "./pages/IntoScreen";
+import IntroScreen from "./pages/IntroScreen";
 import MasterClass from "./Components/MasterClass";
 import ScreenContainer from "./Components/ScreenContainer";
 import MasterclassThanks from "./Components/MasterclassThanks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
-import Introduction from "./Components/Introduction"
+import Introduction from "./Components/UserInfoPage"
 import HomePage from "./Components/HomePage";
-// import FirstScreen from "./Pages/FirstScreen";
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,7 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={<IntoScreen />} />
+          <Route path="/" index element={<MainScreen />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
           <Route path="/MasterclassThanks" index element={<MasterclassThanks />} />
@@ -26,7 +25,8 @@ function App() {
           <Route path="/HomePage" index element={<HomePage />} />
           <Route path = "/Introduction" index element = {<Introduction/>}/>
           <Route path = "/MainScreen" index element = {<MainScreen/>}/>
-          {/* <Route path = "/hello" index element = {<MainScreen/>}/> */}
+          <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
+
         </Routes>
       </BrowserRouter>
     </div>

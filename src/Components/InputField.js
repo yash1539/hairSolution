@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import './InputField.css'
-
+import { useNavigate } from 'react-router-dom'
 const InputField = ({placeholder}) => {
     const [name,setName] = useState("")
-
+    const navigate = useNavigate();
+    const stepInside = () =>{
+     navigate("/HomePage");
+   }
     return (
         <div className='inputSection'>
         <div className="inputSection_react">
@@ -16,7 +19,7 @@ const InputField = ({placeholder}) => {
                         placeholder={placeholder}
                         className="inputField" />
                 </div>
-                <div>
+                <div onClick={stepInside}>
                     <img src="./assets/arrow-right.svg" alt="arrow-key" />
             </div>            
         </div>
