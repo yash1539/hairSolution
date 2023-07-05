@@ -49,7 +49,9 @@
 
 .img-background {
 height: 100vh;
-  background-repeat: round;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
 } 
 .img-background-type-1 {
   @extend .img-background;
@@ -60,13 +62,28 @@ height: 100vh;
 }
 .img-background-type-2 {
   @extend .img-background;
-  background-image: url('Images/HomeScreen/homeMain.jpg');
+  background-image: url('Images/HomeScreen/home1-bg.svg');
 }
 
 .img-background-type-3 {
   @extend .img-background;
   background-image: url('Images/HomeScreen/homeMain.jpg');
 }
+.img-background-type-4 {
+  @extend .img-background;
+background-image: url('/Images/HomeScreen/WinState2.jpg');
+}
+
+.img-background-type-5 {
+  @extend .img-background;
+background-image: url('/Images/HomeScreen/Frame-18.jpg');
+}
+.img-background-type-6 {
+  @extend .img-background;
+background-image: url('/Images/MasterClass/Master.jpg');
+}
+
+
 // magrin along y-axis 
 .my-5 {
   margin-top: 5px;
@@ -161,6 +178,22 @@ height: 100vh;
 
 .button{
   width: auto;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 5px;
+  border: 1px solid #FFDE88;
+background: linear-gradient(45deg, rgba(134, 134, 134, 0.25) 0%, rgba(171, 171, 171, 0.25) 100%);
+backdrop-filter: blur(9px);
+}
+
+.button-stepInside{
+  width: calc(40vh);
   text-align: center;
   padding: 20px;
   color: #FFDE88;

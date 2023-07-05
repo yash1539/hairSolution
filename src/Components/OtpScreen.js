@@ -44,7 +44,7 @@ const OtpScreen = () => {
      <div className="otp-container">
 
      
-     <div>
+     <div className="text-otp-main">
      <div className="otp-line otp-line-1">
         <h1>enter the OTP sent to </h1>
       </div>
@@ -72,7 +72,6 @@ const OtpScreen = () => {
         <div className="otp-line otp-line-4">
           <h1>Didn’t receive any OTP?</h1>
           <p className="resend-otp-text">Resend OTP</p>
-          <p className="retry-text">Retry in 00:30 secs</p>
         </div>
         <button type="submit" className="otp-verify-button">
           Verify OTP

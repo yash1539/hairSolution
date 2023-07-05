@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Button() {
+function Button({text}) {
 
     return (
         <div className='button'>
-            BOOK NOW
+            {text}
         </div>
     )
 }
