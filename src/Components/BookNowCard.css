@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 41vw;
-    border-radius: 5px;
+    width: -webkit-fill-available;
+        border-radius: 5px;
     padding: 10px;
     height: 40vh;
     margin: 10px;
@@ -54,7 +54,6 @@ font-family: Euclid Circular B;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-width: 133px;
 height: 32px;
 flex-shrink: 0;
 border-radius: 10px;

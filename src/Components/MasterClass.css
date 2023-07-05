@@ -63,7 +63,6 @@ margin-bottom: 30vh;
 .tab.active {
   background-color: transparent;
   border-bottom: 4px solid #EAC889;
-  border-radius: 100px;
 color: #EAC889;
 font-size: 12px;
 font-family: Euclid Circular B;
