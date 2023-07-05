@@ -7,7 +7,6 @@ import ScreenContainer from "./Components/ScreenContainer";
 import MasterclassThanks from "./Components/MasterclassThanks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
-import Introduction from "./Components/UserInfoPage"
 import HomePage from "./Components/HomePage";
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
           <Route path="/OtpScreen" index element={<OtpScreen />} />
           <Route path="/ScreenContainer" index element={<ScreenContainer />} />
           <Route path="/HomePage" index element={<HomePage />} />
-          <Route path = "/Introduction" index element = {<Introduction/>}/>
           <Route path = "/MainScreen" index element = {<MainScreen/>}/>
           <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
 
