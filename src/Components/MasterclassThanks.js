@@ -2,13 +2,13 @@ import React, { useState, useRef } from "react";
 import Navbar from "../Components/Navbar";
 import Bttn from "../Components/Button"
 import profileImage from "../Images/HomeScreen/profile.png";
-import "./BookingConfirmation.scss"
+import "../pages/BookingConfirmation.scss"
 import { useNavigate } from "react-router-dom";
 const MasterclassThanks = () => {
 
   const navigate = useNavigate();
   const stepInside = () => {
-    navigate("/OtpScreen");
+    navigate("/lossScreen");
   }
   return (
     <>

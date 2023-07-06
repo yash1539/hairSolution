@@ -12,6 +12,9 @@ import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import SplashScreen1 from "./pages/SplashScreen1";
 import BookingConfirmation from "./pages/BookingConfirmation";
+import lossScreen from "./pages/lossScreentext";
+import ShowMePage from "./pages/ShowMePage";
+
 function App() {
   return (
     <div className="App">
@@ -29,6 +32,8 @@ function App() {
           <Route path = "/MainScreen" index element = {<MainScreen/>}/>
           <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
           <Route path = "/BookingConfirmation" index element = {<BookingConfirmation/>}/>
+          <Route path = "/ShowMePage" index element = {<ShowMePage/>}/>
+
         </Routes>
       </BrowserRouter>
     </div>

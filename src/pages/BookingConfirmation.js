@@ -8,7 +8,7 @@ const BookingConfirmation = () => {
 
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/OtpScreen");
+     navigate("/lossScreen");
    }
     return (
         <>

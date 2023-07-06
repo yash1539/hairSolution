@@ -4,13 +4,16 @@ import Bttn from "../Components/Button"
 import profileImage from "../Images/HomeScreen/profile.png";
 import "./BookingConfirmation.scss"
 import { useNavigate } from "react-router-dom";
-const BookingConfirmation = () => {
+const lossScreen = () => {
 
-    const navigate = useNavigate();
+    const navigate = useNavigate;
     const stepInside = () =>{
      navigate("/OtpScreen");
    }
+
+   
     return (
+
         <>
             <div className="img-background-type-1">
                 <Navbar hideBack={true} />
@@ -35,4 +38,4 @@ const BookingConfirmation = () => {
     );
 };
 
-export default BookingConfirmation;
+export default lossScreen;

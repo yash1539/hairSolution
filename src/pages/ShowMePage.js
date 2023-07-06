@@ -4,7 +4,7 @@ import Bttn from "../Components/Button"
 import profileImage from "../Images/HomeScreen/profile.png";
 import "./BookingConfirmation.scss"
 import { useNavigate } from "react-router-dom";
-const BookingConfirmation = () => {
+const ShowMePage = () => {
 
     const navigate = useNavigate();
     const stepInside = () =>{
@@ -35,4 +35,4 @@ const BookingConfirmation = () => {
     );
 };
 
-export default BookingConfirmation;
+export default ShowMePage;
