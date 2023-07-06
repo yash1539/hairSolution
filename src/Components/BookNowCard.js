@@ -6,7 +6,7 @@ import Button from './Button';
 function BookNowCard() {
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/OtpScreen");
+     navigate("/BookingPage");
    }
     return (
         <div className='Card-container'>

@@ -25,7 +25,7 @@ props.center &&
       }
           <div className="mx-10 w-10">
         
-        <div>Skip</div>
+        <div className='Skip-style'>SKIP</div>
        
         </div>
             </nav>
