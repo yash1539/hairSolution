@@ -11,11 +11,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import SplashScreen1 from "./pages/SplashScreen1";
+import BookingConfirmation from "./pages/BookingConfirmation";
+import LossScreen from "./pages/lossScreentext";
+import ShowMePage from "./pages/ShowMePage";
+import FormatLow from "./pages/FormatLowdown";
+
 function App() {
   return (
     <div className="App">
-      {/* <MainSceen />
-       */}
+
       <BrowserRouter>
         <Routes>
           <Route path="/" index element={< SplashScreen1/>} />
@@ -28,6 +32,10 @@ function App() {
           <Route path="/HomePage" index element={<HomePage />} />
           <Route path = "/MainScreen" index element = {<MainScreen/>}/>
           <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
+          <Route path = "/BookingConfirmation" index element = {<BookingConfirmation/>}/>
+          <Route path = "/ShowMePage" index element = {<ShowMePage/>}/>
+          <Route path = "/lossScreen" index element = {<LossScreen/>}/>
+          <Route path = "/FormatLow" index element = {<FormatLow/>}/>
 
         </Routes>
       </BrowserRouter>
