@@ -15,7 +15,7 @@ const IntroScreen = () => {
 
             <Card text={"Hi there! I'm Tia, your personal stylist, So I can make your experience more personalised, please tell me your name"} />
           </div>
-          <div className="Input-1-tia">
+          <div className="Input-1-tia w-available">
             <InputField placeholder="Enter your name" />
           </div>
 
