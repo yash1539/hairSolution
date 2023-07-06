@@ -19,7 +19,7 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={< MasterClass2/>} />
+          <Route path="/" index element={< SplashScreen1/>} />
           <Route path="/BookingPage" index element={<MasterClassBooking />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
