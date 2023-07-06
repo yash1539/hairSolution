@@ -11,11 +11,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import SplashScreen1 from "./pages/SplashScreen1";
+import BookingConfirmation from "./pages/BookingConfirmation";
 function App() {
   return (
     <div className="App">
-      {/* <MainSceen />
-       */}
+
       <BrowserRouter>
         <Routes>
           <Route path="/" index element={< SplashScreen1/>} />
@@ -28,7 +28,7 @@ function App() {
           <Route path="/HomePage" index element={<HomePage />} />
           <Route path = "/MainScreen" index element = {<MainScreen/>}/>
           <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
-
+          <Route path = "/BookingConfirmation" index element = {<BookingConfirmation/>}/>
         </Routes>
       </BrowserRouter>
     </div>
