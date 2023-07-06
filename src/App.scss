@@ -1,7 +1,7 @@
-// .App {
-//   text-align: center;
-//   margin: 0 auto;
-// }
+.App {
+  // text-align: center;
+  margin: 0 auto;
+}
 
 // .App-logo {
 //   height: 40vmin;
@@ -45,6 +45,8 @@
 //     /* max-width: 390px; */
 //   }
 // }
+
+
 
 
 .img-background {
@@ -149,6 +151,10 @@ background-image: url('/Images/MasterClass/Master.jpg');
   align-items: center;
   justify-content: center;
 }
+.screen-container-2 {
+ @extend .screen-container-1;
+   justify-content: space-between;
+}
 
 .d-flex {
   display: flex;
@@ -190,6 +196,11 @@ background-image: url('/Images/MasterClass/Master.jpg');
   border: 1px solid #FFDE88;
 background: linear-gradient(45deg, rgba(134, 134, 134, 0.25) 0%, rgba(171, 171, 171, 0.25) 100%);
 backdrop-filter: blur(9px);
+}
+
+.button-gold{
+  @extend .button;
+  color: #FFDE88 !important;
 }
 
 .button-stepInside{

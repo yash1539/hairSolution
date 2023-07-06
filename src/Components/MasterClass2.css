@@ -1,0 +1,51 @@
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.full-width {
+    width: 100%;
+    height: auto;
+  }
+  .text{
+    color: #D9D9D9;
+    font-family: Euclid Circular B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  }
+
+    .lorem-text{
+        padding: 10px;
+        color: #FFF;
+font-family: Euclid Circular B;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+    }
+    .date{
+        color: #D9D9D9;
+font-family: Euclid Circular B;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 10px;
+    }
+    .seats-left{
+        color: #FFDE88;
+font-family: Euclid Circular B;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .time{color: #D9D9D9;
+        font-family: Euclid Circular B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: 10px;
+    }

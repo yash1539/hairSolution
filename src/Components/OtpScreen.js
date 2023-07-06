@@ -1,9 +1,12 @@
 import React, { useState, useRef } from "react";
 import "./OtpScreen.scss";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar"; 
+import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
+import 'react-toastify/dist/ReactToastify.css';
 
 const OtpScreen = () => {
+  const [tost, setTost] = useState("");
   const [otp, setOtp] = useState(["", "", "", ""]);
   const inputRefs = useRef([]);
   const navigate = useNavigate();
@@ -24,9 +27,14 @@ const OtpScreen = () => {
     // Replace the condition with your OTP verification logic
     if (enteredOtp === "1234") {
       // OTP verified successfully
-      navigate("/MasterclassThanks")
+      setTost('successfully')
+
+      navigate("/BookingConfirmation")
       console.log("OTP verified successfully!");
     } else {
+      setTost('error')
+      toast("Wow so easy !");
+
       // Incorrect OTP
       console.log("Incorrect OTP!");
     }
@@ -36,10 +44,9 @@ const OtpScreen = () => {
     <>
     <div className="img-background-type-1">
       {/* <div className="navBar"> */}
-      
       {/* <Navbar hideBack={true} hideLogo={false} hideCart={true} /> */}
+       <ToastContainer />
       <Navbar  />
-    {/* </div> */}
     <div className="screen-container-1">
      <div className="otp-container">
 

@@ -1,0 +1,37 @@
+.label {
+    color: #F5F5F5;
+font-size: 12px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.heading {
+    width: 100vw;
+    color: #EAC889;
+font-size: 16px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: left;
+}
+.w-available{
+    width: -webkit-fill-available;
+}
+.bottom-sec{
+    @extend .w-available;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.bottom-sec-2{
+    @extend .w-available;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+
+}

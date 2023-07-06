@@ -21,6 +21,21 @@ return (
         <div>Skip</div>
        </div>
     </nav>
+     {
+props.center && 
+       <div  className="mx-10 w-10"></div>
+     }
+                   
+                    {
+            !props.hideLogo &&
+        <VectorImage className="mx-10 logo" />
+      }
+          <div className="mx-10 w-10">
+        
+        <div className='Skip-style'>SKIP</div>
+       
+        </div>
+            </nav>
   </>
 )
 } else {
