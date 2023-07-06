@@ -2,8 +2,13 @@ import React from "react";
 import demoPic from "../Images/demoPic/demoPic.jpg";
 import "./MasterClass2.scss";
 import Button from "./Button";
-
+import { useNavigate } from "react-router-dom";
 function MasterClass2() {
+  
+  const navigate = useNavigate();
+  const stepInside = () =>{
+   navigate("/HomePage");
+ }
   return (
     <div className="img-background-type-2">
       <div className="img-container">
@@ -165,7 +170,9 @@ function MasterClass2() {
         euismod purus consectetur. Curabitur mollis velit id venenatis molestie.
       </p>
       </div>
-      <Button text={"Book Now"}/>
+      <div onClick={stepInside}>
+      <Button text={"Book Now"} />
+      </div>
       </div>
 
     </div>
