@@ -8,7 +8,7 @@ const LossScreen = () => {
 
     const navigate = useNavigate();
     const stepInside = () => {
-        navigate("/lossScreen");
+        navigate("/ClaimNow");
     }
     return (
         <>

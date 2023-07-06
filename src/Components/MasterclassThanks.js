@@ -8,7 +8,7 @@ const MasterclassThanks = () => {
 
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/MasterClass2");
+     navigate("/FormatLow");
    }
     return (
         <>
