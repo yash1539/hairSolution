@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import SplashScreen1 from "./pages/SplashScreen1";
+import MasterClass2 from "./Components/MasterClass2";
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={< SplashScreen1/>} />
+          <Route path="/" index element={< MasterClass2/>} />
           <Route path="/BookingPage" index element={<MasterClassBooking />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
