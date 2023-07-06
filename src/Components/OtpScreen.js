@@ -29,7 +29,7 @@ const OtpScreen = () => {
       // OTP verified successfully
       setTost('successfully')
 
-      navigate("/MasterclassThanks")
+      navigate("/BookingConfirmation")
       console.log("OTP verified successfully!");
     } else {
       setTost('error')

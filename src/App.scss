@@ -198,6 +198,11 @@ background: linear-gradient(45deg, rgba(134, 134, 134, 0.25) 0%, rgba(171, 171, 
 backdrop-filter: blur(9px);
 }
 
+.button-gold{
+  @extend .button;
+  color: #FFDE88 !important;
+}
+
 .button-stepInside{
   width: calc(40vh);
   text-align: center;
