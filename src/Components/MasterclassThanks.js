@@ -1,37 +1,36 @@
-import React from "react";
-import imgtia from "../Images/HomeScreen/profile.png";
-import "./MasterclassThanks.css";
-const MasterclassThanks= () => {
-    const content_title = "Hair Care Masterclass";
-    const content = "Hello Gurmeher! Warmly welcome to your exclusive masterclass. Get ready for an amazing learning experience!";
-    const  btn_title = "STEP INSIDE";
+import React, { useState, useRef } from "react";
+import Navbar from "../Components/Navbar";
+import Bttn from "../Components/Button"
+import profileImage from "../Images/HomeScreen/profile.png";
+import "./BookingConfirmation.scss"
+import { useNavigate } from "react-router-dom";
+const MasterclassThanks = () => {
+
+  const navigate = useNavigate();
+  const stepInside = () => {
+    navigate("/OtpScreen");
+  }
   return (
     <>
-      <div>
-      <div className="background-img">
+      <div className="img-background-type-1">
+        <Navbar hideBack={true} />
+        <div className="screen-container">
+          <div className="profile-image">
+            <img src={profileImage} alt="Overlay" className="profileImage-2" />
+          </div>
+          <div className="Congratulation">
+            Thank you
+          </div>
+          <div className="context-thanks">
+            Gurmeher, thanks for filling out the feedback, we will work on to provide your the best experience. Till then you can explore our other services                                  </div>
+          <div className="button-1 mx-10 my-10" onClick={stepInside}>
 
-          <img
-            className="imgtia"
-            style={
-              btn_title === "EXPLORE MORE"
-                ? {  backgroundColor: "rgb(10,0,0)" }
-                : { backgroundColor: "black" }
-            }
-            src={imgtia}
-            alt="girl-img"
-          />
-    
-        <div className="title-st">
-          <p className="title-topography">{content_title}</p>
-        </div>
+            <Bttn text={"CLAIM NOW"} />
+          </div>
 
 
-        <div className="content">
-          <p>{content}</p>
         </div>
-        <button className="btn">{btn_title}</button>
-        </div>
-        </div>
+      </div>
     </>
   );
 };
