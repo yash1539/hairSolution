@@ -8,7 +8,7 @@ const FormatLow = () => {
 
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/ClaimNow");
+     navigate("/MasterClass2");
    }
     return (
         <>
