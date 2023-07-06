@@ -29,23 +29,23 @@ const MasterClassBooking = () => {
           <div className="w-available">
             <div className="my-10 mx-5 ">
               <p className="label">User Information</p>
-              <InputField placeholder="Enter your name" />
+              <InputField placeholder="Enter your name"  edit={true}  emoji={'star.svg'} />
             </div>
             <div className="my-10  mx-5 ">
-              <InputField placeholder="Enter your name" />
+              <InputField placeholder="Enter your email" edit={true}  emoji={'email.png'} />
             </div>
             <div className="my-10  mx-5 ">
-              <InputField placeholder="Enter your name" />
+              <InputField placeholder="Enter your phone" edit={true}  emoji={'phone.png'} />
             </div>
           </div>
-          <div className=" bottom-sec label">
-            <div className="mx-10 my-10">may 03, 2023</div>
+          <div className=" bottom-sec ">
+            <div className="mx-10 my-10 date"> <img  className="mr-10"  src="./assets/calendar.svg" /> May 03, 2023</div>
             <div className="bottom-sec-2 my-10">
-              <div className="mx-10">07:00 PM - 08:00 PM</div>
-              <div className="mx-10">by Komal Pandey</div>
+              <div className="mx-10 date">  <img  className="mr-10" src="./assets/clock.svg" />07:00 PM - 08:00 PM</div>
+              <div className="mx-10 name">by Komal Pandey</div>
             </div>
             <div className=" my-10 mx-5 w-available">
-              <Button text={"CONFIRM BOOKING"} onClick={stepInside} />
+              <Button text={"SEND OTP"} onClick={stepInside} />
             </div>
           </div>
         </div>

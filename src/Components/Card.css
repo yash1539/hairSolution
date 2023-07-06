@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     margin: 18px 16px;
-    width: 85vw;
+   
     height: 90px;
     gap: 12px;
     background-color: rgba(26, 26, 26, 0.5);
@@ -11,7 +11,6 @@
     color: #FFFFFF;
     font-size: 12px;
     text-align: left;
-    margin-bottom: 56vh;
 }
 
 .card img {

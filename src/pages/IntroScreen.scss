@@ -7,3 +7,10 @@
     height: 20vh;
     width: 20vh;
 }
+.input-container{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}

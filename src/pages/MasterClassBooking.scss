@@ -7,7 +7,7 @@ font-weight: 400;
 line-height: 18px;
 }
 .heading {
-    width: 100vw;
+    padding-top: 20px;
     color: #EAC889;
 font-size: 16px;
 font-family: Euclid Circular B;
@@ -15,6 +15,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-align: left;
+
 }
 .w-available{
     width: -webkit-fill-available;
@@ -25,6 +26,25 @@ text-align: left;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    .name{
+        color: #F5F5F5;
+        font-size: 16px;
+        font-family: Euclid Circular B;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    
+    .date{
+        color: #D9D9D9;
+    font-size: 14px;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+    }
 
 }
 .bottom-sec-2{
@@ -35,3 +55,4 @@ text-align: left;
     justify-content:space-between
 
 }
+

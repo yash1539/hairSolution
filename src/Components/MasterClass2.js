@@ -1,6 +1,6 @@
 import React from "react";
 import demoPic from "../Images/demoPic/demoPic.jpg";
-import "./MasterClass2.css";
+import "./MasterClass2.scss";
 import Button from "./Button";
 
 function MasterClass2() {
@@ -9,10 +9,13 @@ function MasterClass2() {
       <div className="img-container">
         <img src={demoPic} className="full-width" />
       </div>
+      <div className="sub-container">
+
+      
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           alignItems: "center",
         }}
       >
@@ -40,10 +43,12 @@ function MasterClass2() {
         pellentesque arcu. Maecenas ultricies metus eu mauris auctor, vel
         euismod purus consectetur. Curabitur mollis velit id venenatis molestie.
       </p>
+      <div className="description">
+
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           alignItems: "center",
         }}
       >
@@ -124,7 +129,7 @@ function MasterClass2() {
           display: "flex",
           justifyContent: "start",
           alignItems: "center",
-          marginLeft: "6.5vh",
+          
         }}
       >
         <svg
@@ -152,13 +157,17 @@ function MasterClass2() {
         </svg>
         <p className="time">07:00 PM - 08:00 PM</p>
       </div>
+
       <p className="lorem-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis
         aliquet laoreet. Morbi varius metus sed aliquet pulvinar. Fusce id
         pellentesque arcu. Maecenas ultricies metus eu mauris auctor, vel
         euismod purus consectetur. Curabitur mollis velit id venenatis molestie.
       </p>
+      </div>
       <Button text={"Book Now"}/>
+      </div>
+
     </div>
   );
 }

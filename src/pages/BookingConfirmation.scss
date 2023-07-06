@@ -6,6 +6,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+text-align: center;
 }
 
 .context-thanks{
@@ -25,4 +26,11 @@ backdrop-filter: blur(8px);
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.cong-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
