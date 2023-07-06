@@ -16,6 +16,7 @@ import BookingConfirmation from "./pages/BookingConfirmation";
 import LossScreen from "./pages/lossScreentext";
 import ShowMePage from "./pages/ShowMePage";
 import FormatLow from "./pages/FormatLowdown";
+import ClaimNow from "./pages/ClaimNow";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path = "/ShowMePage" index element = {<ShowMePage/>}/>
           <Route path = "/lossScreen" index element = {<LossScreen/>}/>
           <Route path = "/FormatLow" index element = {<FormatLow/>}/>
+          <Route path = "/ClaimNow" index element = {<ClaimNow/>}/>
 
         </Routes>
       </BrowserRouter>

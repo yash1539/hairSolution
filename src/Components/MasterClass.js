@@ -7,7 +7,7 @@ function MasterClass() {
 
     const navigate = useNavigate();
     const stepInside = () =>{
-     navigate("/OtpScreen");
+     navigate("/BookingPage");
    }
     const [activeTab, setActiveTab] = useState('upcoming');
 

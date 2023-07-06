@@ -44,7 +44,7 @@ const MasterClassBooking = () => {
               <div className="mx-10 date">  <img  className="mr-10" src="./assets/clock.svg" />07:00 PM - 08:00 PM</div>
               <div className="mx-10 name">by Komal Pandey</div>
             </div>
-            <div className=" my-10 mx-5 w-available">
+            <div className=" my-10 mx-5 w-available" onClick={stepInside}>
               <Button text={"SEND OTP"} onClick={stepInside} />
             </div>
           </div>
