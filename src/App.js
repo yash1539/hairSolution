@@ -10,6 +10,7 @@ import MasterclassThanks from "./Components/MasterclassThanks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
+import SplashScreen1 from "./pages/SplashScreen1";
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" index element={< />} /> */}
+          <Route path="/" index element={< SplashScreen1/>} />
           <Route path="/BookingPage" index element={<MasterClassBooking />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
