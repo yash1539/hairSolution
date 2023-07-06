@@ -2,6 +2,8 @@ import "./App.scss";
 import OtpScreen from "./Components/OtpScreen";
 import MainScreen from "./Components/MainScreen";
 import IntroScreen from "./pages/IntroScreen";
+import MasterClassBooking from "./pages/MasterClassBooking";
+
 import MasterClass from "./Components/MasterClass";
 import ScreenContainer from "./Components/ScreenContainer";
 import MasterclassThanks from "./Components/MasterclassThanks";
@@ -15,7 +17,7 @@ function App() {
        */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={<MainScreen />} />
+          <Route path="/" index element={<MasterClassBooking />} />
           <Route path="/TrendingStory" index element={<StoryScreen/>} />
           <Route path="/MasterClass" index element={<MasterClass />} />
           <Route path="/MasterclassThanks" index element={<MasterclassThanks />} />

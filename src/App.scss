@@ -149,6 +149,10 @@ background-image: url('/Images/MasterClass/Master.jpg');
   align-items: center;
   justify-content: center;
 }
+.screen-container-2 {
+ @extend .screen-container-1;
+   justify-content: space-between;
+}
 
 .d-flex {
   display: flex;
