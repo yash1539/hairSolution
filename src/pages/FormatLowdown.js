@@ -25,7 +25,7 @@ const FormatLow = () => {
                         Gurmeher you have won a Product Discount Coupon, which you can claim right now
                     </div>
                     <div className="button-1 mx-10 my-10" onClick={stepInside}>
-                        <Bttn text={"SHOW ME"} />
+                        <Bttn text={"SHOW ME"} type={true} />
                     </div>
                 </div>
             </div>

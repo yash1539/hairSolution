@@ -25,7 +25,7 @@ const ShowMePage = () => {
                     Sorry Gurmeher, You haven’t won this time but you will have more chances in the future.And there’s lots more to explore within the Hair Bar.                     </div>
                     <div className="button-1 mx-10 my-10" onClick={stepInside}>
 
-                        <Bttn text={"SHOW ME"} />
+                        <Bttn text={"SHOW ME"} type={true}/>
                     </div>
 
 

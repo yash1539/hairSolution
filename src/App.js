@@ -12,8 +12,9 @@ import StoryScreen from "./Components/StoryScreen";
 import HomePage from "./Components/HomePage";
 import SplashScreen1 from "./pages/SplashScreen1";
 import BookingConfirmation from "./pages/BookingConfirmation";
-import lossScreen from "./pages/lossScreentext";
+import LossScreen from "./pages/lossScreentext";
 import ShowMePage from "./pages/ShowMePage";
+import FormatLow from "./pages/FormatLowdown";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
           <Route path = "/userInfoPage" index element = {<IntroScreen/>}/>
           <Route path = "/BookingConfirmation" index element = {<BookingConfirmation/>}/>
           <Route path = "/ShowMePage" index element = {<ShowMePage/>}/>
+          <Route path = "/lossScreen" index element = {<LossScreen/>}/>
+          <Route path = "/FormatLow" index element = {<FormatLow/>}/>
 
         </Routes>
       </BrowserRouter>

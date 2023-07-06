@@ -26,10 +26,8 @@ const BookingConfirmation = () => {
                     </div>
                     <div className="button-1 mx-10 my-10" onClick={stepInside}>
 
-                        <Bttn text={"EXPLORE MORE"} />
+                        <Bttn text={"EXPLORE MORE"} type= {true} />
                     </div>
-
-
                 </div>
             </div>
         </>
