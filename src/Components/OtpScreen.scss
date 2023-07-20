@@ -1,0 +1,104 @@
+/* OtpScreen.css */
+.otp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  min-height: 55vh;
+  width: 80%;
+}
+
+  
+  .otp-verify-button{
+    width: 84vw;
+    height: 44px;
+    flex-shrink: 0;    
+    background-color: transparent;
+    border-radius: 5px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgba(134, 134, 134, 0.25) 0%, rgba(171, 171, 171, 0.25) 100%);
+    backdrop-filter: blur(9px);    backdrop-filter: blur(9px);
+    color: aliceblue;
+    margin-top: 10vh;
+    border-color: white;
+  }
+  .otp-line {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .otp-line h1 {
+    margin: 0;
+    color: #C1C1C1;
+font-family: Euclid Circular B;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  .otp-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .otp-input {
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.07) 100%);
+
+  }
+  
+  .otp-line-4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+  justify-content: space-between;
+  }
+  
+  .resend-otp-text {
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .otp-line h1 {
+      font-size: 16px;
+    }
+  
+    .otp-input {
+      width: 13vw;
+      height: 5vh;
+      font-size: 14px;
+      color: aliceblue;
+    }
+  }
+
+  .otp-line-1{
+    color: #C1C1C1;
+font-size: 14px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 30vh;
+  }
+  
+.otp-line-2{  
+  color: #F5F5F5;
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-otp-main{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}

@@ -1,0 +1,72 @@
+.Card-container{
+    background-color: #D1D1D1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+        border-radius: 5px;
+    padding: 10px;
+    height: 40vh;
+    margin: 10px;
+}
+.card-upside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    /* margin-bottom: 140px; */
+}
+.card-downside{
+    width: 100%;
+}
+.card-text-1{
+    color: #F5F5F5;
+    font-size: 10px;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-text-2{
+    color: #F5F5F5;
+    font-size: 14px;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.card-text-3{
+    color: #F5F5F5;
+    font-size: 10px;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.book-now-button{
+    color: #FFF;
+font-size: 14px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+height: 32px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #FFD38A;
+background: linear-gradient(45deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.29) 100%);
+}
+
+.card-seat{
+    color: #EAC889;
+font-size: 10px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+

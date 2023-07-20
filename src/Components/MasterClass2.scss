@@ -1,0 +1,59 @@
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.full-width {
+  width: 100%;
+  height: auto;
+}
+.font {
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.text {
+  color: #d9d9d9;
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.description{
+height: 40vh;
+overflow: scroll;
+
+}
+.lorem-text {
+  color: #fff;
+  font-family: Euclid Circular B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+
+}
+.date {
+  @extend .font;
+  color: #d9d9d9;
+}
+.seats-left {
+  color: #ffde88;
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.time {
+  @extend .font;
+  color: #d9d9d9;
+}
+.sub-container{
+    margin: 0px 20px;
+}

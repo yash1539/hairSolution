@@ -1,0 +1,27 @@
+
+
+.slide-content {
+    width: 70vw;
+    height: 40vh;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin-top: 10vh;
+  }
+  .slide-content2 {
+    width: 39vw;
+    height: 18vh;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin-top: 25px;
+  }
+  .slick-dots li button:before {
+    color:#ffffff; 
+  }

@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 16px;
+   
+    height: 90px;
+    gap: 12px;
+    background-color: rgba(26, 26, 26, 0.5);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: left;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #8B0000 0%, #F81414 51.04%, #4D0000 100%);
+    border: 1px #EAC889 solid;
+}
+
+.card .card_text {
+    width: 233px;
+    height: 54px;
+}
+
+.card p {
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 18px;
+}

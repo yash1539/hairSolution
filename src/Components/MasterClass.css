@@ -1,0 +1,75 @@
+.master-class-1 {
+background-image: url('../../src/Images/MasterClass/Master.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+/*  */
+.Upcoming-button{
+  color: #EAC889;
+font-size: 12px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.selected-masterclass{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 30vh;
+}
+.card-main-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card-section-2{
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+
+
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+
+
+.tabs {
+  display: flex;
+  width:99vw;
+  align-items: start;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #EAC889;
+  font-size: 12px;
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tab.active {
+  background-color: transparent;
+  border-bottom: 4px solid #EAC889;
+color: #EAC889;
+font-size: 12px;
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.imglll{
+  background-color: aqua;
+}

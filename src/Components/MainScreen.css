@@ -1,0 +1,58 @@
+.description-wrapper {
+width: 298px;
+flex-direction: column;
+flex-shrink: 0;
+border-radius: 5px;
+background: rgba(26, 26, 26, 0.50);
+backdrop-filter: blur(8px);
+  }
+  .description {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+  }
+
+  .terms {
+    z-index: 1;
+    text-align: center;
+    width: 18.625rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    line-height: 1.0625rem;
+    position: relative;
+    top:16vh;
+  }
+  .privacy-policy {
+    color: #ffde88;
+  }
+
+.vectorImage{
+  margin-top: 2vh;
+  margin-left: 14vh;
+  height: 5vh;
+  
+}
+.profileImage-2{
+    margin-bottom: 15vh;
+    height: 20vh;
+    width: 20vh;
+}
+
+.stepInside-btn-1{
+  width: 100vw;
+}
+.step-inside-wrapper{
+  background-color: aqua;
+}
+.button-stepInside-main{
+  position: relative;
+  top:15vh;
+}
